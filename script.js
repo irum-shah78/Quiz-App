@@ -95,7 +95,7 @@ submitBtn.addEventListener('click', () => {
     } else {
       quiz.innerHTML = `<h2 class=text-center p-1">You answered correctly at ${score}/${quizData.length} questions.</h2> 
       <div class="d-grid gap-2">
-      <button class="btn btn-primary rounded-0 fs-6" type="button" id="submit" onclick="location.reload()">Submit</button>
+      <button class="btn btn-primary rounded-0 fs-6" type="button" id="submit" onclick="location.reload()">Reload</button>
       </div>`;
     }
   }
