@@ -15,23 +15,19 @@
 
   <div class="quiz-container bg-white shadow rounded">
     <div class="quiz-header p-5">
-      <h2>Question Text</h2>
+      <h2 id="question">Question Text</h2>
       <ul>
-        <li><input type="radio" id="a" name="answer" class="me-2"><label for="a"></label>Question</li>
-
-        <li><input type="radio" id="b" name="answer" class="me-2"><label for="b"></label>Question</li>
-
-        <li><input type="radio" id="c" name="answer" class="me-2"><label for="c"></label>Question</li>
-
-        <li><input type="radio" id="d" name="answer" class="me-2"><label for="d"></label>Question</li>
+        <li><input type="radio" id="a" name="answer" class="me-2"><label for="a" id="a_text"></label></li>
+        <li><input type="radio" id="b" name="answer" class="me-2"><label for="b" id="b_text"></label></li>
+        <li><input type="radio" id="c" name="answer" class="me-2"><label for="c" id="c_text"></label></li>
+        <li><input type="radio" id="d" name="answer" class="me-2"><label for="d" id="d_text"></label></li>
       </ul>
     </div>
       
       <div class="d-grid gap-2">
-        <button class="btn btn-primary rounded-0 fs-6" type="button">Submit</button>
+        <button class="btn btn-primary rounded-0 fs-6" type="button" id="submit">Submit</button>
       </div>
     </div>
-
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
